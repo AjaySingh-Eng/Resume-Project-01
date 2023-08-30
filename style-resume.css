@@ -1,0 +1,179 @@
+body{
+	margin:0px;
+
+}
+/*body header*/
+#body-header{
+	height: 65vh;
+    opacity: 0.9; /* make blur to image*/
+	background-image: url('annie-spratt-QKo-op_gR9I-unsplash.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed; /* (for paralex effect or image fixed while hover over and while scrolling)*/
+}
+
+/*horizontal list*/
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px;
+
+
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+	padding-top: 20px;
+}
+
+.horizontal-list a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+.nav-menu li a{
+	transition: color 1s, border-bottom 4s;
+}
+
+.nav-menu li a:hover{
+	color: black;
+	border-bottom: 1px solid white;
+}
+
+.text-center{
+	text-align: center;
+
+}
+/* Heading part*/
+.text-center h1{
+	color: white;
+	text-decoration: none;
+	transition: color 1s, text-decoration 4s;
+	padding-top: 50px;
+	font-size: 50px;
+
+}
+
+.text-center h1:hover{
+	color: black;
+	text-decoration: none;
+}
+
+
+}
+
+/*My-name*/
+#my-name {
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	padding-top: 70px;
+	color: white;
+}
+
+
+.social-icons li a i{
+	color: blue;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.social-icons li a i:hover{
+	box-shadow: -1px 0px 6px 4px skyblue;
+}
+
+/*photo*/
+
+#photo {
+    width: 12rem; /* Set the desired width */
+    height: 12rem; /* Set the desired height */
+    border-radius: 50%; /* Make the container a circle */
+    overflow: hidden; /* Hide any overflow if the image is larger than the container */
+    display: flex;
+    justify-content: center;
+    align-items: inherit;
+}
+
+#photo{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: 0vh;
+
+}
+#photo img {
+    width: 100%; /* Make the image fill the container */
+    height: 100%; /* Maintain the aspect ratio */
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+/*about*/
+
+#about {
+	height: auto;
+	width: 100%;
+}
+
+p{
+   color: grey;
+   margin: 100px; /* Add margin at the top and bottom of the paragraph */
+   padding: 100px; /* Reset padding to 0 */
+   text-align: justify;
+   line-height: 1.5;
+   padding-top: 0px;
+}
+p strong{
+	color: #2857a4;
+
+}
+
+/*SKILL part*/
+ #skill{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
+ }
+
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	margin: 10px auto;
+	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	margin-right: 0.5rem;
+}
+
+.skills-display {
+	width: 70%;
+	height: 100px;
+	border: 2px solid black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skill-progress{
+	width: 7rem;
+	height: 1.4rem;
+	background-color: lightgrey;
+	border-radius: 2px solid black;
+}
+
+/*percentage class*/
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+}
